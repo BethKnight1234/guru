@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "guru-swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Formguru/guru-swift-sdk",
+      "state" : {
+        "branch" : "main",
+        "revision" : "15a19f56644c5253f2a6755a70e7fd205ceff0ba"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "43ec568034b3731101dbf7670765d671c30f54f3",
+        "version" : "0.9.16"
+      }
+    }
+  ],
+  "version" : 2
+}

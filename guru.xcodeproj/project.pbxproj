@@ -13,6 +13,7 @@
 		4604EED02A49C16D003A7A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4604EECE2A49C16D003A7A56 /* Main.storyboard */; };
 		4604EED22A49C16F003A7A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4604EED12A49C16F003A7A56 /* Assets.xcassets */; };
 		4604EED52A49C16F003A7A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4604EED32A49C16F003A7A56 /* LaunchScreen.storyboard */; };
+		4604EEDE2A49C5C9003A7A56 /* GuruSwiftSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4604EEDD2A49C5C9003A7A56 /* GuruSwiftSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4604EEDE2A49C5C9003A7A56 /* GuruSwiftSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = guru;
+			packageProductDependencies = (
+				4604EEDD2A49C5C9003A7A56 /* GuruSwiftSDK */,
+			);
 			productName = guru;
 			productReference = 4604EEC52A49C16D003A7A56 /* guru.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 4604EEBC2A49C16D003A7A56;
+			packageReferences = (
+				4604EEDC2A49C5C9003A7A56 /* XCRemoteSwiftPackageReference "guru-swift-sdk" */,
+			);
 			productRefGroup = 4604EEC62A49C16D003A7A56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -287,9 +295,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7V4P35X88;
+				DEVELOPMENT_TEAM = S44J587ZM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guru/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User camera to preview ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,9 +324,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7V4P35X88;
+				DEVELOPMENT_TEAM = S44J587ZM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guru/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User camera to preview ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4604EEDC2A49C5C9003A7A56 /* XCRemoteSwiftPackageReference "guru-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Formguru/guru-swift-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4604EEDD2A49C5C9003A7A56 /* GuruSwiftSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4604EEDC2A49C5C9003A7A56 /* XCRemoteSwiftPackageReference "guru-swift-sdk" */;
+			productName = GuruSwiftSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4604EEBD2A49C16D003A7A56 /* Project object */;
 }

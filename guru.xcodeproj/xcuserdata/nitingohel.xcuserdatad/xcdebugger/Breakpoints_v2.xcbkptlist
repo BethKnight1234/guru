@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1600A4A5-2360-4A43-ACCE-E8F7F3973D8B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "995E9FA4-E194-4479-ABA6-58891573EC5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "ensureModelIsReady()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A14D8097-15AA-4F9A-87A1-5F4A16DE38DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "ensureModelIsReady()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A14D8097-15AA-4F9A-87A1-5F4A16DE38DB - 2c10d53310620f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GuruSwiftSDK.LocalVideoInference.ensureModelIsReady() async throws -&gt; ()"
+                  moduleName = "guru"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitingohel/Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A14D8097-15AA-4F9A-87A1-5F4A16DE38DB - b769877877793852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GuruSwiftSDK.LocalVideoInference.ensureModelIsReady() async throws -&gt; ()"
+                  moduleName = "guru"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitingohel/Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "A14D8097-15AA-4F9A-87A1-5F4A16DE38DB - c8633f6efa15cb02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GuruSwiftSDK.LocalVideoInference.ensureModelIsReady() async throws -&gt; ()"
+                  moduleName = "guru"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitingohel/Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "821E863F-27C4-42D2-A48D-BABE402B44DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "ensureModelIsReady()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "821E863F-27C4-42D2-A48D-BABE402B44DD - 8be829064480b68d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GuruSwiftSDK.LocalVideoInference.ensureModelIsReady() async throws -&gt; ()"
+                  moduleName = "guru"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitingohel/Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "821E863F-27C4-42D2-A48D-BABE402B44DD - 2c10d53310620f4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GuruSwiftSDK.LocalVideoInference.ensureModelIsReady() async throws -&gt; ()"
+                  moduleName = "guru"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitingohel/Library/Developer/Xcode/DerivedData/guru-fmufomantqwzsoalmqgvijrevxku/SourcePackages/checkouts/guru-swift-sdk/Sources/GuruSwiftSDK/LocalVideoInference.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "500385E6-6BA4-46A9-8902-48DB7CB39A2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guru/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "consumeFrame(frame:inference:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A22F9185-7DC1-4F2C-90E1-500CD6110663"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guru/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "consumeFrame(frame:inference:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0E52AC2-8246-4EAB-98DC-ECB08F20433C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guru/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "consumeFrame(frame:inference:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E80294EF-926A-4826-A843-4A4761C34E3E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guru/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "consumeFrame(frame:inference:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BE58588-36AC-4594-A16B-42F396802D81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guru/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "consumeAnalysis(analysis:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
