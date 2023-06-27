@@ -4,6 +4,15 @@ import GuruSwiftSDK
 
 class InferenceViewController: UIViewController {
   
+    
+    
+    
+    
+    
+    
+    @IBOutlet weak var lblCount: UILabel!
+    
+    
   var inference: LocalVideoInference?
   @IBOutlet weak var imageView: UIImageView!
   var userLastFacing: UserFacing = UserFacing.other
@@ -15,6 +24,7 @@ class InferenceViewController: UIViewController {
         cameraPosition: .front,
         source: "beth",
         apiKey: ""
+        
       )
       
       Task {
@@ -57,11 +67,10 @@ extension InferenceViewController: InferenceConsumer {
     
   
   func consumeAnalysis(analysis: Analysis) {
+      self.lblCount.text = "\(analysis.reps.count)"
       
       print("count to be show ===== \(analysis.reps.count)")
       
-      
-    // TODO: Implement this function.
   }
   
   func consumeFrame(frame: UIImage, inference: FrameInference?) {
